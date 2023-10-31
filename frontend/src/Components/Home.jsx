@@ -21,7 +21,7 @@ function Home(props) {
       <Row>
         <Col className="text-center shadow p-3 bg-white mt-3 rounded">
           <h1 className="text-grad">RecipeGenius</h1>
-          <h2>Recipe System</h2>
+          
         </Col>
       </Row>
       <Row className=" shadow p-3 mt-3 bg-white rounded">

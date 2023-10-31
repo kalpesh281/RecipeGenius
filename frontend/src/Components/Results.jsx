@@ -29,7 +29,7 @@ function Results(props) {
         {loading ? <Spinner /> : "Get Recipes"}
       </Button>
       <hr />
-      <Accordion defaultActiveIndex={1} panels={data} />
+      <Accordion panels={data} />
     </div>
   );
 }

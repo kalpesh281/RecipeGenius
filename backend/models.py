@@ -98,7 +98,8 @@ class Results():
             file1 = open(mapping[i], "r")
             fileid = mapping[i][15:-4]
             recipe = file1.readline()
-            data.append({"key": fileid, "title": recipe,"message":"test"})
+            content=file1.read()
+            data.append({"key": fileid, "title": recipe,"message":"test","content":content})
         return data
 
 
